@@ -13,4 +13,4 @@ RUN pip3 install -r requirements.txt
 CMD [ "python", "manage.py", "runserver", "0.0.0.0:8000"]
 
 ### docker build -t mypython ./
-### docker run -ti --memory=1g -v $PWD:/mycode_in_container -v -p 8000:8000 mypython
+### docker run -ti --memory=1g -v $PWD:/mycode_in_container -p 8000:8000 mypython
