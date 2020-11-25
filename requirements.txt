@@ -1,0 +1,6 @@
+Django
+numpy
+django-picklefield
+django-bootstrap3
+ipython
+djangorestframework
