@@ -24,7 +24,7 @@ SECRET_KEY = '&-!0-++g8!nh-djuy*y@c_rz0hjrb05$giifjud=cj47rl&ebi'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0']#u'idoc-test-wsgi.ias.u-psud.fr']
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost']#u'idoc-test-wsgi.ias.u-psud.fr']
 
 
 # Application definition
